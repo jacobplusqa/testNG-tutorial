@@ -1,4 +1,4 @@
-package testclasses;
+package regressionSuite;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -6,8 +6,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import base.BaseTestSuite;
 
-public class TestNG_TestClass1 {
+public class TestNG_TestClass2 extends BaseTestSuite {
 	@BeforeClass
 	
 	public void setUp(){
@@ -35,12 +36,12 @@ public class TestNG_TestClass1 {
 	@Test
 	
 	public void testMethodOne(){
-		System.out.println("running test > TestNG_TestClassOne > testMethodOne");
+		System.out.println("running test > TestNG_TestClassTwo > testMethodOne");
 	}
 	
 	@Test
 	
 	public void testMethodTwo(){
-		System.out.println("running test > TestNG_TestClassOne >  testMethodTwo");
+		System.out.println("running test > TestNG_TestClassTwo >  testMethodTwo");
 	}
 }

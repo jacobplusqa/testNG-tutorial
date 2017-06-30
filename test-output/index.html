@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Regression_TestSuite">
-                    <span>testng.xml</span>
+                    <span>regression-suite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,22 +102,22 @@
                     <div class="method-list-content passed suite-Regression_TestSuite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_TestSuite" title="testclasses.TestNG_TestClass2" hash-for-method="testMethodOne">testMethodOne</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_TestSuite" title="regressionSuite.TestNG_TestClass1" hash-for-method="testMethodOne">testMethodOne</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_TestSuite" title="testclasses.TestNG_TestClass1" hash-for-method="testMethodOne">testMethodOne</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_TestSuite" title="regressionSuite.TestNG_TestClass2" hash-for-method="testMethodOne">testMethodOne</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_TestSuite" title="testclasses.TestNG_TestClass2" hash-for-method="testMethodTwo">testMethodTwo</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_TestSuite" title="regressionSuite.TestNG_TestClass1" hash-for-method="testMethodTwo">testMethodTwo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression_TestSuite" title="testclasses.TestNG_TestClass1" hash-for-method="testMethodTwo">testMethodTwo</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_TestSuite" title="regressionSuite.TestNG_TestClass2" hash-for-method="testMethodTwo">testMethodTwo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Regression_TestSuite -->
@@ -135,7 +135,7 @@
           <div class="suite-Regression_TestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testclasses.TestNG_TestClass2</span>
+              <span class="class-name">regressionSuite.TestNG_TestClass2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -157,7 +157,7 @@
           <div class="suite-Regression_TestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testclasses.TestNG_TestClass1</span>
+              <span class="class-name">regressionSuite.TestNG_TestClass1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -179,19 +179,19 @@
         </div> <!-- panel Regression_TestSuite -->
         <div panel-name="test-xml-Regression_TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/jacob/Documents/TestNGTutorial/testng.xml</span>
+            <span class="header-content">/Users/jacob/Documents/TestNGTutorial/regression-suite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Regression TestSuite&quot;&gt;
-  &lt;test name=&quot;Application test&quot;&gt;
+&lt;suite name=&quot;Regression TestSuite&quot;&gt;
+  &lt;test name=&quot;Application Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testclasses.TestNG_TestClass1&quot;/&gt;
-      &lt;class name=&quot;testclasses.TestNG_TestClass2&quot;/&gt;
+      &lt;class name=&quot;regressionSuite.TestNG_TestClass1&quot;/&gt;
+      &lt;class name=&quot;regressionSuite.TestNG_TestClass2&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Application test --&gt;
+  &lt;/test&gt; &lt;!-- Application Test --&gt;
 &lt;/suite&gt; &lt;!-- Regression TestSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -203,7 +203,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Application test (2 classes)</span>
+                <span class="test-name">Application Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -232,25 +232,25 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testMethodOne')
-data.setCell(0, 2, 'testclasses.TestNG_TestClass1')
-data.setCell(0, 3, 8);
+data.setCell(0, 2, 'regressionSuite.TestNG_TestClass1')
+data.setCell(0, 3, 10);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testMethodTwo')
-data.setCell(1, 2, 'testclasses.TestNG_TestClass1')
-data.setCell(1, 3, 3);
+data.setCell(1, 2, 'regressionSuite.TestNG_TestClass2')
+data.setCell(1, 3, 4);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testMethodTwo')
-data.setCell(2, 2, 'testclasses.TestNG_TestClass2')
-data.setCell(2, 3, 2);
+data.setCell(2, 2, 'regressionSuite.TestNG_TestClass1')
+data.setCell(2, 3, 3);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testMethodOne')
-data.setCell(3, 2, 'testclasses.TestNG_TestClass2')
-data.setCell(3, 3, 2);
+data.setCell(3, 2, 'regressionSuite.TestNG_TestClass2')
+data.setCell(3, 3, 1);
 window.suiteTableData['Regression_TestSuite']= { tableData: data, tableDiv: 'times-div-Regression_TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 ms</span>
+              <span class="suite-total-time">Total running time: 18 ms</span>
               <div id="times-div-Regression_TestSuite">
               </div> <!-- times-div-Regression_TestSuite -->
             </div> <!-- times-div -->
@@ -265,9 +265,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Regression_TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">regressionSuite.TestNG_TestClass2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Regression_TestSuite" class="panel">
@@ -276,74 +285,101 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testclasses.TestNG_TestClass1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">regressionSuite.TestNG_TestClass1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">36 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">37 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">25 ms</span>
+                <span class="method-start">50 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testMethodOne</span>
-                <span class="method-start">25 ms</span>
+                <span class="method-start">50 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">36 ms</span>
+                <span class="method-start">62 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">38 ms</span>
+                <span class="method-start">64 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testMethodTwo</span>
-                <span class="method-start">38 ms</span>
+                <span class="method-start">64 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">43 ms</span>
+                <span class="method-start">69 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">49 ms</span>
+                <span class="method-start">70 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testclasses.TestNG_TestClass2</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">regressionSuite.TestNG_TestClass2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">52 ms</span>
+                <span class="method-start">77 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">53 ms</span>
+                <span class="method-start">78 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testMethodOne</span>
-                <span class="method-start">53 ms</span>
+                <span class="method-start">78 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">57 ms</span>
+                <span class="method-start">82 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">58 ms</span>
+                <span class="method-start">86 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testMethodTwo</span>
-                <span class="method-start">59 ms</span>
+                <span class="method-start">87 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">93 ms</span>
+              </div> <!-- configuration-class after -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">63 ms</span>
+                <span class="method-start">93 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">64 ms</span>
+                <span class="method-start">93 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">regressionSuite.TestNG_TestClass1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">5206 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
