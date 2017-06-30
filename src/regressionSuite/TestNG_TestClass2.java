@@ -12,13 +12,13 @@ public class TestNG_TestClass2 extends BaseTestSuite {
 	@BeforeClass
 	
 	public void setUp(){
-		System.out.println("\nThis runs once before class");
+		System.out.println("This runs once before class");
 	}
 	
 	@AfterClass
 	
 	public void cleanUp(){
-		System.out.println("\nThis runs once after class");
+		System.out.println("This runs once after class");
 	}
 	
 	@BeforeMethod

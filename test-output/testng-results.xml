@@ -1,103 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression TestSuite" duration-ms="74" started-at="2017-06-30T22:15:04Z" finished-at="2017-06-30T22:15:04Z">
+  <suite name="Regression TestSuite" duration-ms="5188" started-at="2017-06-30T22:49:17Z" finished-at="2017-06-30T22:49:22Z">
     <groups>
     </groups>
-    <test name="Application Test" duration-ms="74" started-at="2017-06-30T22:15:04Z" finished-at="2017-06-30T22:15:04Z">
-      <class name="regressionSuite.TestNG_TestClass2">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:regressionSuite.TestNG_TestClass2@396a51ab]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+    <test name="Application Test" duration-ms="60" started-at="2017-06-30T22:49:17Z" finished-at="2017-06-30T22:49:17Z">
+      <class name="regressionSuite.TestNG_TestClass1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-06-30T15:49:17Z" finished-at="2017-06-30T15:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-06-30T15:49:17Z" finished-at="2017-06-30T15:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:regressionSuite.TestNG_TestClass2@396a51ab]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:17Z" finished-at="2017-06-30T15:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:regressionSuite.TestNG_TestClass2@396a51ab]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-06-30T15:49:17Z" finished-at="2017-06-30T15:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:regressionSuite.TestNG_TestClass2@396a51ab]" name="testMethodOne" duration-ms="1" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="testMethodOne" duration-ms="9" started-at="2017-06-30T15:49:17Z" finished-at="2017-06-30T15:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodOne -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:regressionSuite.TestNG_TestClass2@396a51ab]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:17Z" finished-at="2017-06-30T15:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:regressionSuite.TestNG_TestClass2@396a51ab]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:regressionSuite.TestNG_TestClass2@396a51ab]" name="testMethodTwo" duration-ms="4" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="testMethodTwo" duration-ms="5" started-at="2017-06-30T15:49:17Z" finished-at="2017-06-30T15:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodTwo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:regressionSuite.TestNG_TestClass2@396a51ab]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:17Z" finished-at="2017-06-30T15:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:17Z" finished-at="2017-06-30T15:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:regressionSuite.TestNG_TestClass2@396a51ab]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-06-30T15:49:17Z" finished-at="2017-06-30T15:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:regressionSuite.TestNG_TestClass2@396a51ab]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:17Z" finished-at="2017-06-30T15:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- regressionSuite.TestNG_TestClass2 -->
-      <class name="regressionSuite.TestNG_TestClass1">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="beforeSuite" is-config="true" duration-ms="19" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:17Z" finished-at="2017-06-30T15:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- regressionSuite.TestNG_TestClass1 -->
+    </test> <!-- Application Test -->
+    <test name="Application Test 2" duration-ms="24" started-at="2017-06-30T22:49:22Z" finished-at="2017-06-30T22:49:22Z">
+      <class name="regressionSuite.TestNG_TestClass2">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="beforeSuite" is-config="true" duration-ms="14" started-at="2017-06-30T15:49:17Z" finished-at="2017-06-30T15:49:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:22Z" finished-at="2017-06-30T15:49:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="setUp" is-config="true" duration-ms="1" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:22Z" finished-at="2017-06-30T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:22Z" finished-at="2017-06-30T15:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2017-06-30T15:49:22Z" finished-at="2017-06-30T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="testMethodOne" duration-ms="10" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="testMethodOne" duration-ms="5" started-at="2017-06-30T15:49:22Z" finished-at="2017-06-30T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodOne -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:22Z" finished-at="2017-06-30T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="testMethodTwo" duration-ms="3" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="testMethodTwo" duration-ms="3" started-at="2017-06-30T15:49:22Z" finished-at="2017-06-30T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethodTwo -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:22Z" finished-at="2017-06-30T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:22Z" finished-at="2017-06-30T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="afterClass" is-config="true" duration-ms="3" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="cleanUp" is-config="true" duration-ms="0" started-at="2017-06-30T15:15:04Z" finished-at="2017-06-30T15:15:04Z">
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="cleanUp" is-config="true" duration-ms="1" started-at="2017-06-30T15:49:22Z" finished-at="2017-06-30T15:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:regressionSuite.TestNG_TestClass1@5034c75a]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-06-30T15:15:09Z" finished-at="2017-06-30T15:15:09Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:22Z" finished-at="2017-06-30T15:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:22Z" finished-at="2017-06-30T15:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:regressionSuite.TestNG_TestClass2@cc285f4]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-06-30T15:49:27Z" finished-at="2017-06-30T15:49:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- regressionSuite.TestNG_TestClass1 -->
-    </test> <!-- Application Test -->
+      </class> <!-- regressionSuite.TestNG_TestClass2 -->
+    </test> <!-- Application Test 2 -->
   </suite> <!-- Regression TestSuite -->
 </testng-results>
