@@ -8,41 +8,41 @@ import org.testng.annotations.Test;
 
 import base.BaseTestSuite;
 
-
 public class TestNG_TestClass1 extends BaseTestSuite {
 	@BeforeClass
-	
-	public void setUp(){
+
+	public void setUp() {
 		System.out.println("This runs once before class");
 	}
-	
+
 	@AfterClass
-	
-	public void cleanUp(){
+
+	public void cleanUp() {
 		System.out.println("This runs once after class");
 	}
-	
+
 	@BeforeMethod
-	
-	public void beforeMethod(){
+
+	public void beforeMethod() {
 		System.out.println("this runs before each method");
 	}
-	
+
 	@AfterMethod
-	
-	public void afterMethod(){
+
+	public void afterMethod() {
 		System.out.println("this runs after each method");
 	}
-	
-	@Test
-	
-	public void testMethodOne(){
-		System.out.println("running test > TestNG_TestClassOne > testMethodOne");
+
+	@Test(priority = 1)
+
+	public void testMethodTwo() {
+		System.out.println("running test > TestNG_TestClassOne >  testMethodTwo SECCCCONNNND ");
 	}
-	
-	@Test
-	
-	public void testMethodTwo(){
-		System.out.println("running test > TestNG_TestClassOne >  testMethodTwo");
+
+	@Test(priority = 0)
+
+	public void testMethodOne() {
+		System.out.println("running test > TestNG_TestClassOne > testMethodOne FIRSTTTTTT");
 	}
+
 }
